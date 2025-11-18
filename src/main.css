@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #ff8aac;
+  --bg-color: #fff;
+  --secondary-color: #f6a2ff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  color: var(--primary-color);
+}
