@@ -1,10 +1,12 @@
+mkdir -p public
 npx rollup -c
 hash=$(md5sum main.js)
 hash=${hash:0:10}
 name=main.${hash}.js
-npx terser main.js -o $name -c -m
-echo "output $name"
-cat << EOF > index.html
+npx terser main.js -o public/$name -c -m
+echo "output public/$name"
+mv assets public/
+cat << EOF > public/index.html
 <!doctype html>
 <html lang="en">
 <head>

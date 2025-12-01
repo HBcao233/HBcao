@@ -124,6 +124,13 @@ el-main {
 </p>
 
 <h1 align="center">派魔喵的开源项目</h1>
+
+## 可以涩涩的Deepseek
+~~dicksuck~~
+已支持创建角色并使用自定义系统提示词
+
+https://deepseek.lolih.dpdns.org
+
 ## 数字爱你化工具
 https://games.lolih.dpdns.org/5201314/
 
@@ -180,11 +187,6 @@ https://hbcao233.github.io/bilibili_player
 一个能让你在b站404页面刷视频的油猴脚本
 
 项目地址: [Github](https://github.com/HBcao233/bilibili_404)
-
-## 可以涩涩的Deepseek
-~~dicksuck~~
-
-https://deepseek.lolih.dpdns.org
 
 ## 个人网盘
 https://cp.lolih.dpdns.org
