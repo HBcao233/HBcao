@@ -124,6 +124,14 @@ el-main {
 </p>
 
 <h1 align="center">派魔喵的开源项目</h1>
+## 数字爱你化工具
+https://games-six-teal.vercel.app/5121314/
+
+## 玩玩小游戏
+扫雷、星之战、点灯游戏
+https://games-six-teal.vercel.app
+
+项目地址: [Github](https://github.com/HBcao233/games)
 
 ## MTgbot
 轻量级 Telegram 机器人框架
@@ -141,11 +149,6 @@ el-main {
 https://manbo-music.vercel.app
 
 项目地址: [Github](https://github.com/HBcao233/manbo-music)
-
-## 玩玩小游戏
-https://games-six-teal.vercel.app
-
-项目地址: [Github](https://github.com/HBcao233/games)
 
 ## 一些小工具
 https://tools-cyan-seven.vercel.app
