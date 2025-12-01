@@ -1,11 +1,11 @@
-import { ElElement, html, css } from '/static/element-plus-lit.min.js';
+import { ElElement, html, css } from '/assets/element-plus-lit.min.js';
 
 class Layout extends ElElement {
   static styles = css`
 .container {
   padding: 0;
   height: 100%;
-  background: url('/static/137321521_p0.png') no-repeat;
+  background: url('/assets/137321521_p0.png') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -112,7 +112,7 @@ el-main {
   </el-header>
   <el-main>
     <div class="title">欢迎来到</div>
-    <div class="title-logo"><img class="logo" src="/static/logo.png"></div>
+    <div class="title-logo"><img class="logo" src="/assets/logo.png"></div>
     <div class="arrow">
       <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em">
         <path fill="currentColor" d="M781.824 430.72l-220.8-358.08a53.312 53.312 0 0 0-90.432-0.576l-226.752 358.08A53.312 53.312 0 0 0 288.896 512L736.44799999 512a53.312 53.312 0 0 0 45.44000002-81.28z"></path>
@@ -125,11 +125,11 @@ el-main {
 
 <h1 align="center">派魔喵的开源项目</h1>
 ## 数字爱你化工具
-https://games-six-teal.vercel.app/5121314/
+https://games.lolih.dpdns.org/5201314/
 
 ## 玩玩小游戏
 扫雷、星之战、点灯游戏
-https://games-six-teal.vercel.app
+https://games.lolih.dpdns.org/
 
 项目地址: [Github](https://github.com/HBcao233/games)
 

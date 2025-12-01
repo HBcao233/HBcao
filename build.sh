@@ -18,7 +18,7 @@ cat << EOF > index.html
   <title>派魔喵</title>
   
   <link rel="stylesheet" href="/src/main.css">
-  <script src="/static/sakura.min.js"></script>
+  <script src="/assets/sakura.min.js"></script>
   <script defer type="module" src="/$name"></script>
 </head>
 <body>
