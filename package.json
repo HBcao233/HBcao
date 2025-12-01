@@ -1,0 +1,23 @@
+{
+  "name": "hbcao",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "HBcao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HBcao233/hbcao.git",
+    "directory": "."
+  },
+  "author": "HBcao233",
+  "homepage": "https://github.com/HBcao233/hbcao",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "rollup": "^4.53.3",
+    "terser": "^5.44.1"
+  }
+}

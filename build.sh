@@ -1,12 +1,14 @@
-mkdir -p public
+output_dir=public
+mkdir -p $output_dir
 npx rollup -c
 hash=$(md5sum main.js)
 hash=${hash:0:10}
 name=main.${hash}.js
-npx terser main.js -o public/$name -c -m
-echo "output public/$name"
-mv assets public/
-cat << EOF > public/index.html
+npx terser main.js -o $output_dir/$name -c -m
+echo "output $output_dir/$name"
+mv assets $output_dir/
+cp src/main.css $output_dir/main.css
+cat << EOF > $output_dir/index.html
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +21,7 @@ cat << EOF > public/index.html
   <link rel="icon" href="https://origin.picgo.net/2025/11/19/415001767ece12334a34c01d.jpeg">
   <title>派魔喵</title>
   
-  <link rel="stylesheet" href="/src/main.css">
+  <link rel="stylesheet" href="/main.css">
   <script src="/assets/sakura.min.js"></script>
   <script defer type="module" src="/$name"></script>
 </head>
